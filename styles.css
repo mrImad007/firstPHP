@@ -1,0 +1,51 @@
+/* home page */
+body{
+    background-image: url("./images/wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+a{
+    color: black;
+}
+form{
+    margin-right: 540px;
+    margin-top: 50px;
+    float: right;
+}
+.form{
+    width: 400px;
+    height: 30px;
+    margin-top: 20px;
+    align-items: center;
+}
+.formButton{
+    float: left;
+    margin-left: 290px;
+    margin-top: 30px;
+    width: 90px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+#last{
+    background-color: midnightblue;
+    color: white;
+    font-size: large;
+    border-radius: 20px;
+    width: 370px;
+    height: 100px;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 550px;
+}
